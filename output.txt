@@ -1,0 +1,41 @@
+Andrii Kuts, group K-28
+
+Input parameters loaded from input.txt
+Cards per suit: 13
+Cards to deal:  1000
+
+Comparison test
+Card a: 5 of Hearts
+Card b: 10 of Diamonds
+Card c: 5 of Hearts
+a is less than b
+a is equal to c
+
+Lambda test
+First 5 after sorting by suit: K of Hearts, 7 of Hearts, 4 of Hearts, A of Hearts, Q of Hearts
+Face cards: 6
+
+Functionals test
+Sum of all ranks: 169
+
+Main experiment
+Total number of stacks: 534
+Most frequent length: 1 (occurred 210 times)
+Average length: 1.8727
+Median length: 2.0000
+Distribution of stack lengths:
+  length 1: 210 times, 39.33%
+  length 2: 209 times, 39.14%
+  length 3: 90 times, 16.85%
+  length 4: 23 times, 4.31%
+  length 5: 2 times, 0.37%
+fold_left check: sum = 1000, count = 534
+
+Programmatic experiment
+Dependence of average and median stack length on deck size:
+  cards per suit 5, average stack length 1.7238, median stack length 2.0000
+  cards per suit 10, average stack length 1.8543, median stack length 2.0000
+  cards per suit 13, average stack length 1.8884, median stack length 2.0000
+  cards per suit 20, average stack length 1.9247, median stack length 2.0000
+
+Done.
